@@ -8,9 +8,33 @@
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
+const tyrannosaurus = (name, diet, weight, length, period => {
+  this.name = 'tyrannosaurus',
+  this.diet = 'carnivorous',
+  this.weight = '7000kg',
+  this.length = '12m',
+  this.period = 'Late Cretaceous'
+});
+
 // stegosaurus, herbivorous, 2000kg, 9m, Late Jurassic
 
+const stegosaurus = (name, diet, weight, length, period => {
+  this.name = 'stegosaurus',
+  this.diet = 'herbivorous',
+  this.weight = '2000kg',
+  this.length = '9m',
+  this.period = 'Late Jurassic'
+});
+
 // velociraptor, carnivorous, 15kg, 1.8m, Late Cretaceous
+
+const velociraptor = (name, diet, weight, length, period => {
+  this.name = 'velociraptor',
+  this.diet = 'carnivorous',
+  this.weight = '15kg',
+  this.length = '1.8m',
+  this.period = 'Late Cretaceous'
+});
 
 // Using your dinosaur objects, log answers to these questions:
 
